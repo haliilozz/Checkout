@@ -50,7 +50,7 @@ productList.addEventListener("click", (e) => {
   //plus
   else if (e.target.classList.contains("fa-plus")) {
     e.target.previousElementSibling.innerText++;
-    calculateCartPrice(e.target);
+    calculateProductPrice(e.target);
   }
   //remove
   else if (e.target.id == "remove-product") {
